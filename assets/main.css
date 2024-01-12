@@ -1,0 +1,102 @@
+main {
+    width: 70vw;
+    margin: 0 auto;
+    }
+    
+    body{
+        height: 100vh;
+    }
+
+    .main-section-header {
+    text-align: center;
+    margin-bottom: 2em;
+    }
+    
+    .main-content-card {
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    }
+    
+    .card-image, .card-content {
+    width: 48%;
+    }
+    
+    .card-image img {
+    width: 100%;
+    }
+    
+    .card-content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5152ff;
+    }
+    
+    .main-content-card:nth-child(even) {
+    flex-direction: row-reverse;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .nav-header {
+    height: 70vh;
+    background-image: url("./images/hero.png");
+    border: 1px solid #5152ff;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    
+    .nav-header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    }
+    
+    .nav-header a {
+    text-decoration: none;
+    color: white;
+    }
+    
+    .nav-header li {
+    margin-left: 1.4em;
+    }
+
+    button{
+        color: white;
+        padding: 0.8em 1.4em;
+        background-color: rgb(29 128 127);
+        border-color: white;
+        border-radius: 14px;
+
+    }
+
+    .personal-plan{
+        background: white;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid grey;
+        transform: translateY(-100px);
+        box-shadow: 5px 5px 5px gray;
+        border-radius: 15px;
+        height: 35vh;
+        width: 50;
+        justify-content: center;
+    }
+
+    .flex-forms{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
